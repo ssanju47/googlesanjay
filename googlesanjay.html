@@ -1,0 +1,189 @@
+<html>
+    <head>
+        <style>
+            body{
+                margin: 0px;
+            }
+            #nav{
+                display: flex;
+                justify-content: flex-end;
+                margin-top: 15px;
+            }
+            a{
+                text-decoration: none;
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+            #nav a{
+                margin-right: 20px;
+                font-family: arial,sans-serif;
+                font-size: small;
+                color: #202124;
+            }
+            #nav a.toprightimage{
+                width: 20px;
+                height: 20px;
+                background: red;
+                border-radius: 50px;
+            }
+            #center{
+                margin-top: 126.5px;
+            }
+            #googlelogo{
+                text-align: center;
+            }
+            #searchbarcontainer{
+                text-align: center;
+                margin-top: 20px;
+                position: relative;
+            }
+            #searchbar{
+                padding-top: 15px;
+                padding-bottom: 15px;
+                outline: 0;
+                width: 600px;
+                border-radius: 200px;
+                border: 1px solid #c4c4c4;
+                padding-left: 40px;
+                padding-right: 40px;
+            }
+            #buttons{
+                margin-top: 35px;
+                display: flex;
+                justify-content: center;
+
+            }
+            .buttons{
+                margin-left: 10px;
+                margin-right: 10px;
+                padding: 10px 5px;
+                cursor: pointer;
+                background: #F8F9FA;
+                font-family: arial,sans-serif;
+                font-size: 14px;
+                user-select: none;
+                line-height: 27px;
+                border-radius: 3px;
+                color: #3c4043;
+                font-family: arial,sans-serif;
+            }
+            #links{
+                text-align: center;
+                margin: 10px;
+                padding: 5px;
+                
+            }
+            #links a{
+                padding: 0 3px;
+                font-size: small;
+                color: #1a0dab;
+                text-decoration: none;    
+            }
+            #links a:hover{
+                text-decoration: underline;
+                cursor: pointer;
+            }
+            #footer{
+                padding-top: 14.5%;
+                padding-left: 30px;
+                display: block;
+            }
+            #footer a{
+                text-decoration: none;
+                color:#70757a ;
+               font-family: arial,sans-serif;
+            }
+            #footer a:hover{
+                cursor: text;
+            }
+            #lastwork{
+                padding-top: 15px;
+                font-family: arial,sans-serif;
+                font-size: medium;
+            }
+            #lastwork a{
+                padding: 0 10px;
+                padding-left: 0%;
+            }
+            #lastwork a:hover{
+                text-decoration: underline;
+                cursor: pointer;
+            }
+            /* fallback */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v118/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  color: gray;
+  position: absolute;
+    cursor: pointer;
+}
+        </style>
+
+    </head>
+    <body>
+        <div id="nav">
+            <a class="toprightmenu">Gmail</a>
+            <a class="toprightmenu">Image</a>
+            <a class="toprightimage"></a>
+        </div>
+        <div id="center">
+            <div id="googlelogo">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"/>
+            </div>
+            <div id="searchbarcontainer">
+                <span style="margin-top:13px ; margin-left: 5px;" class="material-icons">search</span>
+                <input id="searchbar" type="text">
+                <span style="left: 1036px; margin-top: 13px;"   class="material-icons">mic</span>
+            </div>
+            <div id="buttons">
+                <div class="buttons">
+                    Google Search
+                </div>
+                <div class="buttons">
+                    I'm Feeling Lucky
+                </div>
+            </div>
+        </div>
+        <div id="links">
+            Google  offered  in:  
+            <a href="">हिन्दी</a>
+            <a href="">ಕನ್ನಡ</a>
+            <a href="">English</a>
+            <a href="">ਪੰਜਾਬੀ</a>
+            <a href="">ગુજરાતી</a>
+            <a href="">मराठी</a>
+        </div>
+        <div id="footer">
+            <div>
+            <a href="">India</a>
+        </div>
+           <div id="lastwork">
+            <a href="">About</a>
+            <a href="">Advertising</a>
+            <a href="">Business</a>
+            <a href="">How search works</a>
+            <a style="padding-left: 925px;" href="">Privacy</a>
+            <a href="">Terms</a>
+            <a href="">Settings</a>
+           </div>
+        </div>
+    </body>
+</html>
